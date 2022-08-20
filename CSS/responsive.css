@@ -83,6 +83,9 @@
   .footer-row-second {
     padding: 50px 100px 50px 280px;
   }
+  .ft-main-row-3 {
+    padding: 50px 230px 50px 230px;
+}
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1500px) {
@@ -93,6 +96,9 @@
   .footer-row-second {
     padding: 50px 0px 50px 80px;
   }
+  .ft-main-row-3 {
+    padding: 50px 80px 50px 80px;
+}
 }
 
 /*-------------------------------
@@ -141,6 +147,9 @@
 }
 .about-last-col-back{
   display: none;
+}
+.contact-us-padding {
+  padding: 20px 0px;
 }
 }
 

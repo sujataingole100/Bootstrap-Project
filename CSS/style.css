@@ -267,7 +267,6 @@
 
 .cust-sub-btn {
     background-color: #43abd2;
-    /* margin-top: 2.5rem; */
     color: #ffffff;
     font-size: 18px;
     border: none;
@@ -388,7 +387,7 @@
     color: #f40c43;
 }
 
-.Best-Properties-ul{
+.Best-Properties-ul {
     column-count: 2;
 }
 
@@ -524,11 +523,13 @@ img {
     text-align: center;
     background: #fff;
 }
-.about-team-div1:hover{
+
+.about-team-div1:hover {
     box-shadow: -10px 10px 5px rgb(224, 177, 177);
 }
-.about-team-div1:hover .about-team-image{
-    color: #fff!important;
+
+.about-team-div1:hover .about-team-image {
+    color: #fff !important;
     transform: rotateY(180deg);
 }
 
@@ -656,39 +657,47 @@ li {
 .about-teami:hover {
     color: #3b589e !important;
 }
-.content-area-5{
+
+.content-area-5 {
     justify-content: center;
     align-items: center;
     margin: auto;
     padding: auto;
 }
+
 .about-us-counter {
     background: #f9f9f8;
 }
-.counter-border{
+
+.counter-border {
     padding: 80px 0px;
     text-align: center;
 }
+
 .about-us-counter .border-r {
     border-right: solid 1px #0000001a;
 }
+
 .about-us-counter .border-l {
     border-left: solid 1px #0000001a;
 }
-.about-icon-tag{
+
+.about-icon-tag {
     margin-bottom: 30px;
     display: inline-block;
-   
+
 }
-.about-icon-tag-fa{
+
+.about-icon-tag-fa {
     color: red;
     padding: 30px;
     position: relative;
     border-radius: 100%;
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-   
+
 }
+
 i.fa-solid.fa-tag {
     font-size: 40px;
 }
@@ -696,23 +705,57 @@ i.fa-solid.fa-tag {
 .about-us-counter .about-icon-tag-fa:hover {
     transform: rotate(360deg);
 }
+
 i.fa-solid.fa-chalkboard-user {
     font-size: 30px;
 }
+
 i.fa-solid.fa-user-gear {
     font-size: 25px;
 }
-.about-last-col-back{
+
+.about-last-col-back {
     background-image: url(../Images/img-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.about-last-r-c{
+
+.about-last-r-c {
     padding: 80px 40px;
     text-align: center;
 }
+
 .about-last-profile-img {
     max-width: 115px;
     margin: 30px 0px;
     display: inline-block;
+}
+
+.form-control {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 6%);
+    height: 50px;
+}
+
+textarea.form-control.mb-3 {
+    min-height: 220px;
+}
+
+.contact-us-padding {
+    padding: 50px 0px;
+}
+
+.contact-us-cta {
+    color: white;
+    padding: 15px 30px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.contact-us-cta:hover {
+    color: white;
+    background-color: #000 !important;
+}
+
+.info-card {
+    margin-bottom: 10px;
 }
